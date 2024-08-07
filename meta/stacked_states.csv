@@ -1,0 +1,171 @@
+State,state,Long annotations,Short Annotations,Short Annotations,Group,color,Characterization  by Jason,Notes from Ha about the differences,Notes about enrichments with repeat families and classes,,,,,,Most-enriched_consHMM state,state_order_by_group,,
+1,Quies1,"quescient; H3K9me3 very weak; broad domain; 
+Cell lines;  ENCODE2012, Epithelial, IMR90, Myostat",quescient / weak H3K9me3,quescient / weak H3K9me3,quescient,white,"H3K9me3 very weak; broad domain; Cell lines;  ENCODE2012, Epithelial, IMR90, Myostat",,,,,,,,30-AM_SMam,3,,
+2,Quies2,"quescient; H3K9me3 weak inIMR90, Epithelial, ENCODE2012, Myostat",,quescient / weak H3K9me3,quescient,white,"H3K9me3 weak;   IMR90, Epithelial, ENCODE2012, Myostat",,2-3 folds ERVL and LTR_family,,,,,,76-AM_Prim,4,,
+3,HET1,"H3K9me3. Het in epithelial, IM90, adipose, HSC&B-cell, thymus. LTR repeats 
+Mix of Het and quescient in other. ",HET,HET,HET,light puple,"H3K9me3; LTR repeats;  IMR90, Epithelial","This state is ~3.5 enriched with LTR. It's not among the most enriched state, which is 73-76 ","higest enrichment, across states, with ERVIL_family",,,,,,76-AM_Prim,8,,
+4,HET2,"H3K9me3+H3K27me3; Quescient: Mesench, blood & T-cell, Brain. 
+PolyRep in Sm.Muscle, muscle. Het in Epithelial, IM90, Myostat",,HET,HET,light puple,"H3K9me3+H3K27me3;  IMR90, Epithelial",,,,,,,,82-AM_Prim,9,,
+5,Acet1,H3K9me3 + class1 epigenome acetylations +simple repeats,acetylations + enhancers / repeats; ,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,H3K9me3 + class1 epigenome acetylations; simple repeats ,,"~23 folds with simple_repeat family and class, highest enrichment across states",,,,,,82-AM_Prim,26,,
+6,Acet2,"class1 epigenome acetylations weak; highest emissions in ES & iPSC. 
+19_DNase in ESC, iPSC and ES-deriv. Mixes of quescient in other cell types",,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,class1 epigenome acetylations weak,I added more details based on CMM25_states,"highest enrichment across states with Gypsy family and hAT-Top100 family (~3-4 folds), RNA class and RNA family (~10 folds)",,,,,,100-artifact,27,,
+7,Acet3,class1 epigenome acetylations very weak; universal quescient,,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,class1 epigenome acetylations very weak,,~2 folds SINE repeats,,,,,,75-AM_Prim,28,,
+8,Acet4,"class 1 epigenome acetylations and IMR90 enhancers. 
+17_EnhW2 in most cell types",,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,class 1 epigenome acetylations and IMR90 enhancers,,highest enrichment across states with L2 family (~2 folds),,,,,,14-AM_Mam,29,,
+9,Acet5,class 1 epigenome acetylations and IMR90 enhancers weak. ,,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,class 1 epigenome acetylations and IMR90 enhancers weak,,,,,,,,75-AM_Prim,30,,
+10,Acet6,"IMR90 class 1 acetylations.
+18_EnhAc in Myostat, IMR90, Mesench",,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,"IMR90 class 1 acetylations and Enhancers in Myostat, IMR90, Mesench",,,,,,,,9-AM_Mam,31,,
+11,Acet7,"Enhancers in IMR90, Myostat, Mesench, Epithelial, ENCODE2012 .
+ IMR90 class 1 acetylations",,acetylations + enhancers / repeats; ,acetylations,lemonchiffon,"Enhancers in IMR90, Myostat, Mesench, Epithelial, ENCODE2012 and IMR90 class 1 acetylations",,highest enrichment across states Gypsy?_family (3 folds),,,,,,14-AM_Mam,32,,
+12,EnhA1,"enhancers in most cell types, weaker in blood. EnhA1 in Digestive, 
+Other, ES_deriv, Epithelial, Heart, Muscle, Thymus and Neurosph","enhancers ;
+non-spec, myostat, mesench, epitheial ","enhancers ;
+non-spec, myostat, mesench, epitheial ",enhancers,orange,Enhancers/strong enhancers in most cell types weaker in blood,"I added more details based on CMM25_states, 'weaker in blood' evidence can be found in state-specific emissions",highest enrichment across states PiggyBac?_family (12 folds),,,,,,5-AM_Mam,42,,
+13,EnhA2,"enhancers in mesenchymal, muscle, heart, neurosph, adipose. 
+DNase in ESC and iPSC",,"enhancers ;
+non-spec, myostat, mesench, epitheial ",enhancers,orange,"Enhancers Mesench, Myosat, Adipose, IMR90, Neurosph, Muscle and other cell types",I added more details based on CMM25_states,"highest enrichment across states Unknown class and Unknown family (3 folds), LINE? Class (~17), Penelope?_family (~17), SINE family (~4); ~7 LTR? Class and LTR? Family; ~4 folds SINE? Class and SINE? Family",,,,,,2-AM_nonMam,43,,
+14,EnhA3,"strong enhancers in most cells, weaker in blood and ESC&iPSC",,"enhancers ;
+non-spec, myostat, mesench, epitheial ",enhancers,orange,"Enhancers/strong enhancers in most cell types weaker in blood, ESC-Deriv, and ESC",,highest enrichment across states Deu_family (~11) and LTR?_family (~9),,,,,,5-AM_Mam,44,,
+15,EnhA4,"strong enhancers in myostat, mesench, lung, epithelial",,"enhancers ;
+non-spec, myostat, mesench, epitheial ",enhancers,orange,"Myostat, Mesench enhancers strong",I added more details based on CMM25_states,"highest enrichment across states CR1_family, LTR_family, Helitron_family, RC_class (~2 folds)",,,,,,5-AM_Mam,45,,
+16,EnhA5,"enhancers in mesenchymal, myosat. DNase (weaker emission) in most other",,"enhancers ;
+non-spec, myostat, mesench, epitheial ",enhancers,orange,"Mesench, Myostat enhancers",I added more details based on CMM25_states,highest enrichment across states with Dong-R4_family (~5),,,,,,5-AM_Mam,46,,
+17,EnhWk1,"weak enhancers acetylation in mesench & myostat. 
+DNase in brain, IM90, Adipose, Epithelial, Neurosph, muscle",weak enhancers,weak enhancers,weak enhancers,yellow,"Mesench, Myostat enhancers weak",I added more details based on CMM25_states,"Highest enrichment across states TcMar?_family, MuDR_family, RTE_family (~2-4 folds)",,,,,,5-AM_Mam,34,,
+18,TxEnh1,"H3K79me2 and enhancers Mesench, Myostat, ENCODE, Epithelial",transcribed and enhancer,transcribed and enhancer,transcribed and enhancer,#ADFF2F,"H3K79me2 and enhancers Mesench, Myostat, ENCODE, Epithelial",,highest enrichment across states RTE-BovB_family (~5),,,,,,6-AM_Mam,62,,
+19,TxEnh2,H3K79me2 and blood enhancers (Blood_H3K4me1*) ,,transcribed and enhancer,transcribed and enhancer,#ADFF2F,H3K79me2 and enhancers blood related,,Highest enrichment across states hAT-Charlie_family (1.6 folds),,,,,,37-AM_SMam,63,,
+20,Tx1,"H3K79me2. Mostly Tx5p, 
+some TxEnhW in Blood & T-cell (Blood_H3K4me1*)","transcription;
+non-spec and ESC-derived","transcription;
+non-spec and ESC-derived",transcription,green,H3K79me2,I added more details based on CMM25_states,Highest enrichment across states TcMar-Tc2_family.hg19.bed.gz (2.4 folds) and DNA_class.hg19.bed.gz (1.6),,,,,,44-AM_SMam,72,,
+21,Tx2,"weak H3K79me2, 5_Tx5p",,"transcription;
+non-spec and ESC-derived",transcription,green,H3K79me2 weak,,,,,,,,77-AM_Prim,73,,
+22,Tx3,"H3K79m2 and H3K79me1, 5_Tx5p, ",,"transcription;
+non-spec and ESC-derived",transcription,green,H3K79me2 and H3K79me1,,,,,,,,75-AM_Prim,74,,
+23,TxEnh3,"H3K79me2 strong, H3K79me1, H4K20me1, H3K36me3, some enhancers. 
+6_Tx in ESC, ES-deriv and iPSC. 12_TxEnhW in Blood &T-cell, sm. Muscle, myostat and adipose",transcribed and enhancer ,transcribed and enhancer ,transcribed and enhancer,#ADFF2F,"H3K79me2 strong, H3K79me1, H4K20me1, H3K36me3, and some enhancers",I added more details based on CMM25_states,"highest enrichment across states Merlin_family (~15), srpRNA_class, srpRNA_family (~9); Unknown?_class and Unknown?_family (~8)",,,,,,82-AM_Prim,64,,
+24,Tx4,"H3K79me2 and H3K36me3 (weaker). 6_Tx, few 5_Tx5p",transcription,transcription,transcription,green,H3K79me2 and weaker H3K36me3,I added more details based on CMM25_states,"Highest enrichment across states scRNA_class, scRNA_family,  PiggyBac_family (~3-4 folds)",,,,,,1-AM_allVert,75,,
+25,TxEx1,H3K79me2 and H3K36me3; exon; 6_Tx ,exon ,exon ,exon,#3cb371,H3K79me2 and H3K36me3,,srpRNA_class and srpRNA_family (~6),,,,,,1-AM_allVert,80,,
+26,TxEx2,H3K36me3 strongest; exons; Tx3p,,exon ,exon,#3cb371,H3K36me3 strongest; exons,,,,,,,,1-AM_allVert,81,,
+27,TxEx3,H3K36me3 strong; exon; Tx3p,,exon ,exon,#3cb371,H3K36me3 strong,,~ 2 folds enriched with Alu family and SINE class,,,,,,1-AM_allVert,82,,
+28,Tx5,H3K36me3; SINE repeats strongest; 7_Tx3p in all most all cell types,transcription,transcription,transcription,green,H3K36me3; SINE repeats strongest,,"highest enriched, across states, (~3-4 folds) with Alu family and SINE_class",,,,,,77-AM_Prim,76,,
+29,TxWk1,H3K36me3 weak; weak transcription; 8_TxWk,weak transcription,weak transcription,weak transcription,green,H3K36me3 weak,,"second highest enriched, across states, (~2-3 folds) with Alu family and SINE_class",,,,,,7-AM_Mam,70,,
+30,Tx6,"H3K36me3 - HSC&B-cell and Mesench preference. 
+7_Tx3p in blood, mesench, ESC, iPsc, Myostat, adipose, thymus. ","transcription;
+non-spec and blood*, mesenche","transcription;
+non-spec and blood*, mesenche",transcription,green,H3K36me3 - HSC&B-cell and Mesench preference,I added more details based on CMM25_states,,,,,,,7-AM_Mam,77,,
+31,Tx7,"H3K36me3 strong, HSC&B-cell and Mesench preference; 
+7_Tx3p in all cell types",,"transcription;
+non-spec and blood*, mesenche",transcription,green,H3K36me3 strong - HSC&B-cell and Mesench preference,More details based on CMM25_state,,,,,,,1-AM_allVert,78,,
+32,Tx8,H3K36me3 (weaker); Mix of 7_Tx3p and 8_TxWk,,"transcription;
+non-spec and blood*, mesenche",transcription,green,H3K36me3 ,More details based on CMM25_state,Highest enrichment Helitron?_family (3.8),,,,,,3-AM_nonMam,79,,
+33,TxEnh4,"H3K36me3 strong and some enhancers (H3K27ac, H3K4me1); exons; 
+near TES; 11_TxEnh3p all cell types",transcription 3' + enhancer,transcription 3' + enhancer,transcribed and enhancer,#ADFF2F,H3K36me3 strong and some enhancers; exons; strong enrichment near TES,,,,,,,,1-AM_allVert,65,,
+34,TxEnh5,H3K36me3 (weaker). 11_TxEnh3p in most cell types. 7_Tx3p in a few,,transcription 3' + enhancer,transcribed and enhancer,#ADFF2F,H3K36me3 and some enhancers,I added more details based on CMM25_states,,,,,,,1-AM_allVert,66,,
+35,TxWk2,H3K36me3 weak; 8_TxW in all cell types; some acetylations,weak transcription,weak transcription,weak transcription,green,H3K36me3 weak and some enhancers weak,"Enhancer marks are not that well-emitted to me (look at state-spec emission figure), CMM25_state shows 8_TxW in all cell types.",,,,,,,1-AM_allVert,71,,
+36,TxEnh6,"H3K36me3 + enhancers blood preference (H3K4me1*, H3K4me3*, H3K27ac*). 
+11_TxEnh3p in all cell types","transcription 3' + enhancer, blood*","transcription 3' + enhancer, blood*",transcribed and enhancer,#ADFF2F,H3K79me2 and H3K36me3 and enhancers blood preference,I don't see clear emissions of H3K79me2 (look @ state_spec emission figure),,,,,,,1-AM_allVert,67,,
+37,TxEx4,"TES and some promoter flanking; 9_TxReg;  very high avg_gene_exp; 
+H3K36me3, H3K79me2, HeK79me1, H3K27ac, H3K4me1, H3K4me2, H3K9ac",TES,TES,exon,#3cb371,Transcription and enhancer histone modifications; strongest TES and some promoter flanking,,,,,,,,1-AM_allVert,83,,
+38,TxEnh7,"H3K79me2 and enhancers; 10_TxEnh5p, 12_TxEnhW in all cell types",transcription 5' + enhancer,transcription 5' + enhancer,transcribed and enhancer,#ADFF2F,H3K79me2 and enhancers,I added more details based on CMM25_states,Highest enrichment across states LTR?_class and LTR?_family (~9),,,,,,47-A_SMam,68,,
+39,EnhWk2,"Enhancers in muscle, adipose, heart, brain (13_ENhA, 15_EnhAF)
+(H3M4me1 and acetylations, weak). 18_EnhAc and 17_EnhW2 in other","weak enhancers;
+muscle, brain, heart","weak enhancers;
+muscle, brain, heart",weak enhancers,yellow,"Muscle, Adipose, Heart, Brain enhancers weak","In muscle, adipose, heart and brain: I think they are enhancers, not weak enhancers, because I still see signals of H3K27ac here. Check state-spec emissions ",Highest enrichment across states Unknown?_class and Unknown?_family (~9),,,,,,28-AM_SMam,35,,
+40,EnhWk3,"enhancers (H3K4me1, H3K27ac) in muscle, heart, adipose (weak emissions). 
+Weak Enh, DNase signals in others",,"weak enhancers;
+muscle, brain, heart",weak enhancers,yellow,"Muscle, Adipose, Heart enhancers weak",I added little more details based on CMM25_states,,,,,,,5-AM_Mam,36,,
+41,EnhWk4,"weak enhancers (H3K4me1 weak, no H3K27ac) brain and neurosph",,"weak enhancers;
+muscle, brain, heart",weak enhancers,yellow,Brain and releated groups enhancers weak,,"Highest enrichment SINE?_class and SINE?_family, DNA?_class and DNA?_family (~3-4 folds)",,,,,,2-AM_nonMam,37,,
+42,EnhA6,"Brain* enhancers (Brain_H3K4me1*, Brain_H3K4me3*)",Brain* enhancers,Brain* enhancers,enhancers,orange,Brain enhancers,,,,,,,,2-AM_nonMam,47,,
+43,PromF1,"H3K4me1 strongest, all ct; some promoter flank; other marks: 
+H3K4me2, DNase, H2A.Z, weaker in H3K4me3, H3K27ac, H3K9ac, class1 acetylation",flanking TSS - promoter,flanking TSS - promoter,promoters,#ff4500,H3K4me1 - nonspecific; some promoter flank,,,,,,,,28-AM_SMam,91,,
+44,PromF2,"H3K4me1, H3K4me2, H3K4me3, DNase, acetylations promoter flank upstream bias",,flanking TSS - promoter,promoters,#ff4500,H3K4me2 and H3K4me1 - promoter flank upstream bias,Added more details based on state-spec emissions,,,,,,,5-AM_Mam,92,,
+45,PromF3,"H3K4me2, H3K4me3, H3K4me1(weaker than me3), DNase, acetylations
+ - flanking tss upstream and downstream",,flanking TSS - promoter,promoters,#ff4500,"H3K4me2, H3K4me3 and H3K4me1 - flanking tss upstream and downstream",Also DNase and acetylations --> look @ state-spec emissions,,,,,,,28-AM_SMam,93,,
+46,PromF4,"H3K4me2, H3K4me3 limited H3K4me1, heavily acetylated -
+ flanking tss downstream bias",,flanking TSS - promoter,promoters,#ff4500,"H3K4me2, H3K4me3 limited H3K4me1, heavily acetylated - 
+flanking tss downstream bias",,,,,,,,28-AM_SMam,94,,
+47,TSS1,TSS more acetylated and active; 1_TssA in all cell types,TSS,TSS,TSS,red,TSS more acetylated and active,,"~ 49 folds tRNA, highest enrichment across states for snRNA (~4.27), ~10-15 folds in rRNA and low_complexity repeat class and family",,,,,,28-AM_SMam,98,,
+48,TSS2,TSS (22_PromP in iPSC),,TSS,TSS,red,TSS,Note: based on CMM25_states: 22_PromP in iPSC,"~ 60 folds tRNA, ~ 15 folds telo family, second highest enrichment across states for snRNA (~3.5), ~18 folds in rRNA and low_complexity repeat class and family",,,,,,28-AM_SMam,99,,
+49,PromF5,flanking promoter; 2_PromU in most cell types; stronger on H3K4me3,flanking TSS- promoter,flanking TSS- promoter,promoters,#ff4500,flanking promoter - Stronger on H3K4me3,,,,,,,,28-AM_SMam,95,,
+50,BivProm1,bivalent promoter- more balanced H3K4me3/ H3K27me3,"bivalent promoter; 
+non-spec","bivalent promoter; 
+non-spec",weak promoters,purple,Bivalent promoter - more balanced H3K4me3/H3K27me3,,,,,,,,28-AM_SMam,87,,
+51,BivProm2,bivalent promoter- stronger on H3K27me3,,"bivalent promoter; 
+non-spec",weak promoters,purple,Bivalent promoter - Stronger on H3K27me3,,,,,,,,28-AM_SMam,88,,
+52,BivProm3,"24_ReprPC in ENCODE, Blood & Tcell, Digestive, HSC &B-cell, Sm.Muscle. 
+23_PromBiv flanking in other cell types. H3K27me3 and H3K4me1",,"bivalent promoter; 
+non-spec",weak promoters,purple,Bivalent enhancer/promoter flanking - H3K27me3 and H3K4me1,I saw polycomb represed in some cell types based on CMM25_states,,,,,,,28-AM_SMam,89,,
+53,ReprPC1,ReprPC (except: PromBiv in ESC); H3K27me3 strong and H3K4me1 weak,polycomb repressed,polycomb repressed,polycomb repressed,silver,H3K27me3 strong and H3K4me1 weak,"should include PromBiv in ESC, both based on state-spec emissions and CMM25_states",highest enrihcment across states hAT?_family (2.7),,,,,,1-AM_allVert,17,,"Among most conserved state, depleted with MAF > 0.5 and repeat elements, top fine-mapped states, top prioritized states by GERP"
+54,ReprPC2,polycomb repressed (H3K27me3),,polycomb repressed,polycomb repressed,silver,H3K27me3,,,,,,,,5-AM_Mam,18,,
+55,ReprPC3,weak polycomb repressed (H3K27me3 weak),,polycomb repressed,polycomb repressed,silver,H3K27me3 weak,,LINE?_class (5.7) and LINE?_class (5.7),,,,,,100-artifact,19,,
+56,ReprPC4,very weak polycomb repressed (H3K27me3 very weak),,polycomb repressed,polycomb repressed,silver,H3K27me3 very weak,,,,,,,,69-AM_Prim,20,,
+57,ReprPC5,polycomb repressed (H3K27me3 in most cell types and some class1 acetylation in ESC and ESC-derived),,polycomb repressed,polycomb repressed,silver,H3k27me3 and some class 1 acetylations,I observed class1 acetylations in ESC and ESC-derived,Second highest L2_family.hg19.bed.gz across states (2),,,,,,82-AM_Prim,21,,
+58,ReprPC6,"24_ReprPC (H3K27me3) in Brain, Epithelial, muscles, Mesench, 
+Neurosph, Mystat, IM90, Adipose. Others quescient",,polycomb repressed,polycomb repressed,silver,"H3K27me3 IMR90, Mesench, Epithelial, Myostat",I include cell types that get 24_ReprPC in CMM25_states. H3K27me3 signals are most prominent in the cell types Jason pointed out though,,,,,,,100-artifact,22,,
+59,ReprPC7,"17_EnhW: brain, HSC&B-cell, Neurosph, ESC, iPSC, Heart. 
+24_ReprPC: Epithelial, Mesench, Mystat, IM90, Adipose.
+H3K27me3 IMR90, Epithelial, Myostat, Mesench with some class 1 acetylations and H3K4me1",,polycomb repressed,polycomb repressed,silver,"H3K27me3 IMR90, Epithelial, Myostat, Mesench with some class 1 acetylations and H3K4me1",More details based on CMM25_state,,,,,,,28-AM_SMam,23,,
+60,EnhA7,"blood_enhancer* (Blood H3K4me1, H3K4me3). 13_EnhA1, 15_EnhAF in Blood&Tcell, HSC&B-cell. 
+Mixed 24_ReprPC, 22_PromP, 17_EnhW2 in others. H3K4me1 &H3K27me3 weak. ",enhancer; blood *,enhancer; blood *,enhancers,orange,H3K4me1 weak - blood preferential,Same as Jason but added more details based on CMM25_states and state-spec emissions,,,,,,,28-AM_SMam,48,,
+61,EnhWk5,"weak enhancers blood* and thymus (H3K4me1, very weak H3K27ac in thymus) ",weak enhancer; blood *,weak enhancer; blood *,weak enhancers,yellow,Blood enhancers weak,Include thymus based on state-spec emissions and CMM25_states,,,,,,,75-AM_Prim,38,,
+62,EnhWk6,"weak enhancer blood* (T-cell preferential) and thymus (H3K4me1 and H3K27ac). 
+Very weak enhancers  + transcription in others",weak enhancer; blood *,enhancer; blood *,weak enhancers,yellow,Blood enhancers; (T-cell preferential),,,,,,,,13-AM_Mam,39,,
+63,EnhA8,"active enhancers in blood* and thymus (H3K4me1, H3K27ac, H3K4me2, H3K4me3)",enhancer; blood *,enhancer; blood *,enhancers,orange,Blood enhancers strong,,,,,,,,15-AM_Mam,49,,
+64,EnhA9,Blood* and thymus enhancer strongest. 9_TxReg and 10_TxReg5p in other ct,enhancer; blood *,enhancer; blood *,enhancers,orange,Blood enhancer strongest,more details based on CMM25_state,,,,,,,14-AM_Mam,50,,
+65,EnhA10,"HSC&B-cell* enhancers (K4me1, K27ac, DNase) --not as strong as 64; 
+weaker enhancers in other cell types",enhancer; blood *,enhancer; blood *,enhancers,orange,Blood enhancers and other cell types weaker,,,,,,,,6-AM_Mam,51,,
+66,EnhA11,"Monoctyes, neutrophils, HSC&Bcells * enhancers ",enhancer; blood *,enhancer; blood *,enhancers,orange,"Monoctyes, neutrophils, HSC enhancers",Should I say it's enhancer (K4me1 and K27ac) or weak enhancer(K4me1). Also where did Jason get monoctyes and neutrophils?,,,,,,,77-AM_Prim,52,,
+67,EnhWk7,HSC-Bcells weak enhancers (HSC H3K4me1*),weak enhancer; blood *,weak enhancer; blood *,weak enhancers,yellow,B-cell enhancers,,,,,,,,77-AM_Prim,40,,
+68,Quies3,quescient (very low non-specific signal),quescient ,quescient ,quescient,white,very low non-specific signal,Named quiescent based on CMM25_state,,,,,,,80-AM_Prim,5,,
+69,GapArtf1,No signal; unmappable - assembly gaps,assembly gap,assembly gap,others,#fff5ee,No signal; unmappable - assembly gaps,,,,,,,,96-AM_SPrim,0,,
+70,Quies4,H3K9me3 very weak; LINE repeats; 25_ques in most ct. 21_Het in ESC-related,quescient,quescient,quescient,white,H3K9me3 very weak; LINE repeats,Added the 21_het in ESC-related based on emissions and CMM25_state,,,,,,,86-AM_Prim,6,,
+71,HET3,H3K9me3 weak; LINE repeats,HET + LINE/satelite/LTR repeats,HET + LINE/satelite/LTR repeats,HET,light puple,H3K9me3 weak; LINE repeats,,"Highest enrichment across states TcMar-Mariner_family (~2),  LINE_class (3.3), L1_family and LINE_class (3-4)",,,,,,86-AM_Prim,10,,
+72,HET4,"H3K9me3; LTR/LINE/satellite repeats; 
+Stronger in Adipose, Mesench, Neurosph, ESC, HSC &Bcells",,HET + LINE/satelite/LTR repeats,HET,light puple,"H3K9me3; LTR/LINE/satellite repeats;  Adipose, Mesench, Neurosph, ESC, HSC &Bcells",,Highest enrichment across states repeats.gz(1.8),,,,,,93-AM_SPrim,11,,
+73,HET5,H3K9me3 strong; LTR repeats,,HET + LINE/satelite/LTR repeats,HET,light puple,H3K9me3 strong; LTR repeats,,"Highest enrichment across states ERVK_family (~8), ERVL-MaLR_family (~5),  LTR_class (~4)",,,,,,100-artifact,12,,
+74,HET6,H3K9me3 weak; LTR and Other class repeats,,HET + LINE/satelite/LTR repeats,HET,light puple,H3K9me3; LTR repeats,And Other class repeats,Other_family and Other_class (~6),,,,,,93-AM_SPrim,13,,
+75,HET7,H3K9me3 very weak; LTR and Other class repeats,,HET + LINE/satelite/LTR repeats,HET,light puple,H3K9me3 weak; LTR repeats,And Other class repeats,highest enrichment other class and other family (~12 folds),,,,,,93-AM_SPrim,14,,
+76,HET8,"H3K9me3 and some H3K27me3; LTR, RNA repeats",,HET + LINE/satelite/LTR repeats,HET,light puple,H3K9me3 and some H3K27me3; LTR repeats,Add RNA class repeats (please look at full-stack _enrichmens,"highest enrichment hAT-Blackjack_family (~1.6 folds), ~4-5 folds ERVL-MaLR_family and LTR_class",,,,,,82-AM_Prim,15,,
+77,GapArtf2,"satellite repeats/artifacts;
+H3K9me3, DNase I, and some signal from many others",artifact,artifact,others,#fff5ee,"H3K9me3, DNase I, and some signal from many others; satellite repeats/artifacts",,">100 folds enriched with Satelite family, Satelite class and centr family, acro_family, 40 - 80 folds rRNA and telo family",,,,,,96-AM_SPrim,1,,
+78,GapArtf3,"rRNA, satellite repeats; artifacts; 
+High signal most experiments; satellite repeats",,artifact,others,#fff5ee,"High signal most experiments; satellite repeats, rRNA/artifacts",,"~100-200 folds enriched with Satelite family, Satelite class and centr family, acro_family, 500 - 600 folds rRNA and telo family",,,,,,95-AM_SPrim,2,,
+79,HET9,"H3K9me3 - ESC/iPSC; LTR, Satellite repeats",HET + LTR repeats,HET + LTR repeats,HET,light puple,H3K9me3 - ESC/iPSC; LTR repeats,Add Satelite repeats ,,,,,,,93-AM_SPrim,16,,
+80,znf1,H3K36me3+H3K9me3; ZNF genes,ZNF genes,ZNF genes,znf,#7fffd4,H3K36me3+H3K9me3; ZNF genes,,highest enrichment across states for TcMar-Tigger_family (~ 2.7 folds),,,,,,79-AM_Prim,84,,
+81,znf2,H3K36me3+H3K9me3 strong; ZNF genes (~80 folds),,ZNF genes,znf,#7fffd4,H3K36me3+H3K9me3 strong; ZNF genes,,,,,,,,100-artifact,85,,
+82,TxEnh8,"Transcribed enhancers 3'; enhancers Myostat, IMR90, Mesench, Epithelial",transcription 3' + enhancer,transcription 3' + enhancer,transcribed and enhancer,#ADFF2F,"Transcribed enhancers 3'; enhancers Myostat, IMR90, Mesench, Epithelial",,,,,,,,1-AM_allVert,69,,
+83,EnhA12,"Epithelial enhancers (H3K4me1 & DNase); 
+ES_derived weaker acetylations + H3K4me1","ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE","ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE",enhancers,orange,"Epithelial, Skin, Breast enhancers; weak others",Don't know where Jason's Break and skin is from,highest enrichment across states for ERVL_family (~3 folds),,,,,,14-AM_Mam,53,,
+84,EnhA13,"enhancers (H3K4me1) - epithelial, weak signals",,"ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE",enhancers,orange,"Epithelial, Skin, Breast enhancers weak",Don't know where Jason's Break and skin is from,"highest enrichment across states for hAT_family.hg19.bed.gz (~2 folds), ~7 folds Merlin family",,,,,,9-AM_Mam,54,,
+85,EnhA14,"Liver/Intestine/Digestive* enhancers (H3K4me1, H3K27ac, DNase); 
+weak others",,"ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE",enhancers,orange,Liver/Intestine/Digestive enhancers; weak others,,"~ 2 folds hAT-Blackjack_family, hAT_family, Helitron_family and RC_class",,,,,,14-AM_Mam,55,,
+86,EnhA15,9,,"ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE",enhancers,orange,Liver/Intestine/Digestive enhancers weak,,,,,,,,6-AM_Mam,56,,
+87,EnhA16,"ENCODE cell line specific positions; H2A.Z, H3K4me1, H3K27ac, DNase",,"ct_spec enhancers;
+epithelial, digestive, lung, liver, ENCODE",enhancers,orange,ENCODE cell line specific positions; H2A.Z,,~ 5 folds ERV_family,,,,,,100-artifact,57,,
+88,DNase1,"DNase I only; CTCF, Candidate Insulator",DNase,DNase,DNase,#fff44f,"DNase I only; CTCF, Candidate Insulator",,hihgest enrichment across states TcMar_family (~5) and ERV_family (~20),,,,,,28-AM_SMam,86,,
+89,EnhA17,"ESC, iPSC, Neurosph enhancers and some differentiated",enhancer; ESC  iPSC Neurosph,enhancer; ESC  iPSC Neurosph,enhancers,orange,ESC/iPSC enhancers and some differentiated,,highest enrichment across states DNA_family (~3 folds); ~3 folds DNA? Family and DNA? Class,,,,,,2-AM_nonMam,58,,
+90,EnhWk8,"17_EnhW2, 18_EnhAC in ES_derived, ESC, iPSC (K4me1, very weak K27ac). 
+25_Ques in others.",weak enhancers; ESC-associated*,weak enhancers; ESC-associated*,weak enhancers,yellow,ES/iPSC enhancers weaker,,~3 folds DNA? Family and DNA? Class,,,,,,2-AM_nonMam,41,,
+91,EnhA18,"ESC/iPSC enhancers (13_EnhA1) strong and 
+some ESC-derived (ESC H3K4me1*); ERV1 repeats",enhancers; ESC-associated,enhancers; ESC-associated,enhancers,orange,ES/iPSC enhancers strong and some ESC-derived; ERV1 repeats,,highest enrichment across states ERV1_family (~5 folds),,,,,,94-AM_SPrim,59,,
+92,EnhA19,"ES/iPSC/ES-derived enhancers strong (H3K4me1, DNase, acetylations)",,enhancers; ESC-associated,enhancers,orange,ES/iPSC enhancers/derived strong; some differentiated,What does 'some differentiated mean'?,,,,,,,2-AM_nonMam,60,,
+93,Acet8,"acetylations marks + enhancers in ESC-derived 
+(H1_BMP4_Derived_Trophoblast_Cultured_Cells)",acetylations + enhancers; ESC-derived *,acetylations + enhancers; ESC-derived *,acetylations,lemonchiffon,enhancers/acetyl H1_BMP4_Derived_Trophoblast_Cultured_Cells,I think H1_BMP4_Derived_Trophoblast_Cultured_Cells is part of ESC-derived?,,,,,,,75-AM_Prim,33,,
+94,ReprPC8,H3K27me3/H3K9me3 weak. Mixed 25_Ques and 24_ReprPC,polycomb repressed,polycomb repressed,polycomb repressed,silver,H3K27me3/H3K9me3 weak,Should I put this as a quiescent or a polycomb_repressed?,highest enrichment ERV_family (~6 folds),,,,,,100-artifact,24,,
+95,Quies5,quescient (H3K9me3/H3K27me3 very weak),quescient (H3K9me3/H3K27me3 weak),quescient (H3K9me3/H3K27me3 weak),quescient,white,H3K27me3/H3K9me3 weak,I say this is quescient is because of CMM25_max_enrichment. S95: Signals are kind of too weak,,,,,,,72-AM_Prim,7,,
+96,ReprPC9,H3k27me3  in es/ipsc; Weak H3K27me3 in others; 24_ReprPC in all ct,"polycomb repressed; ESC, iPSC","polycomb repressed; ESC, iPSC",polycomb repressed,silver,H3k27me3  in es/ipsc; Weak H3K27me3 in others (emission_plot),,,,,,,,100-artifact,25,,
+97,BivProm4,"bivalent promoter in Blood & T-cells, HSC & B-cell, ESC. Prom_D2 in Brain, muscle, sm. Muscle, mesench, neurosph, myosate and adipose. 
+A mix of Prom_D2, bivalent promoter and 22_prom_p in ESC_derived, ENCODE 2012, iPSC, Digestive, Epithelia, Heath and other cell types",bivalent / downstream promoter,bivalent / downstream promoter,weak promoters,purple,bivalent promoter/promoter downstream,More details based on CMM25_state,,,,,,,2-AM_nonMam,90,,
+98,PromF6,"active downstream promoter (3_PromD1, 4_PromD2 all ct);  ",downstream promoter,downstream promoter,promoters,#ff4500,promoter downstream active,,,,,,,,1-AM_allVert,96,,
+99,PromF7,"Prom further downstream (neighborhood enrichment); 4_PromD2 all ct;
+H3K4me1, H3K4me2, H3K4me3, H3K79me2, H3K9ac, H3K27ac",,downstream promoter,promoters,#ff4500,promoter further downstream (neighborhood enrichment),,,,,,,,6-AM_Mam,97,,
+100,EnhA20,HUVEC enhancers,enhancer; HUVEC vascular,enhancer; HUVEC vascular,enhancers,orange,HUVEC enhancers,,,,,,,,5-AM_Mam,61,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,Number of unique consHMM states that are most enriched in at least one full-stack state,29,,,
